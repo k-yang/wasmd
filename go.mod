@@ -223,6 +223,9 @@ replace (
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 )
 
+// TODO: remove this once we have a release
+replace github.com/CosmWasm/wasmvm/v2 => /Users/christoph/Projects/wasmvm
+
 retract (
 	// see https://github.com/CosmWasm/wasmd/issues/1713
 	v0.44.0
